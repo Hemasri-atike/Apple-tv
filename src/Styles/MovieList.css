@@ -1,0 +1,48 @@
+.movie__list {
+          padding: 0 3rem 3rem 3rem;
+      }
+      
+      .list__title {
+      font-size: 1.75rem;
+      margin:  2.5rem;
+      }
+      
+      .list__cards {
+          display: flex;
+          flex-wrap: wrap ;
+          justify-content: center;
+      }
+      .list__title {
+          color: white;
+          font-size: 1.8rem;
+          margin: 1.5rem 1rem 1rem 1rem;
+          font-weight: bold;
+          text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+          letter-spacing: 1px;
+          border-left: 4px solid #ffffff30;
+          padding-left: 10px;
+        }
+        /* Styles/MovieList.css */
+.pagination {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2rem 0;
+          gap: 1rem;
+          font-size: 1rem;
+        }
+        
+        .pagination button {
+          background-color: #0071e3;
+          color: white;
+          border: none;
+          padding: 0.5rem 1rem;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+        
+        .pagination button:disabled {
+          background-color: #444;
+          cursor: not-allowed;
+        }
+        

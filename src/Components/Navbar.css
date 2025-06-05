@@ -1,0 +1,99 @@
+/* Navbar Styles */
+.navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px 40px;
+          background-color: black;
+          color: white;
+        }
+        
+        .logo a {
+          font-size: 24px;
+          font-weight: bold;
+          text-decoration: none;
+          color: white;
+        }
+        
+        .nav-links {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+        }
+        
+        .nav-links li {
+          display: inline;
+        }
+        
+        .nav-links a {
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+        }
+        
+        .auth .login-btn {
+          padding: 8px 16px;
+          background-color: #0071e3;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+        }
+        
+        .auth .login-btn:hover {
+          background-color: #005bb5;
+        }
+        .navbar {
+          background-color: #111;
+          color: white;
+          padding: 1rem 2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .logo a {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: white;
+          text-decoration: none;
+        }
+        
+        .nav-links {
+          list-style: none;
+          display: flex;
+          gap: 1.5rem;
+        }
+        
+        .nav-links li a {
+          text-decoration: none;
+          color: white;
+          font-weight: 500;
+        }
+        
+        .auth {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+        
+        .login-btn, .logout-btn {
+          background-color: #0071e3;
+          color: white;
+          padding: 0.4rem 1rem;
+          border: none;
+          border-radius: 6px;
+          cursor: pointer;
+          text-decoration: none;
+        }
+        
+        .logout-btn:hover,
+        .login-btn:hover {
+          background-color: #005bb5;
+        }
+        
+        .welcome-msg {
+          color: #ccc;
+          font-weight: 500;
+        }
+        
+        
